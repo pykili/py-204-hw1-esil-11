@@ -1,6 +1,9 @@
-# your code here
-for smth in 'a'*10:
-    # your code here
-    user_input = input()
-# your code here
-print(alphabet)
+b = ' '
+for i in range (0, 10):
+    a = input()
+    for i in a:
+        if i in b:
+            pass
+        else:
+            b = b + i
+print(b)
