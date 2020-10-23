@@ -1,4 +1,8 @@
-# your code here
-user_input = input()
-# your code here
-print(alphabet)
+a = input()
+b = ' '
+for i in a:
+    if i in b:
+        pass
+    else:
+        b = b + i
+print(b)
